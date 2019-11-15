@@ -1,0 +1,36 @@
+
+
+h3{
+  font-style: italic;
+  font-family: "Montserrat",sans-serif;
+}
+
+div{
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #808B96;
+}
+
+input[type=text],select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px;
+  border-radius: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: #148F77;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover{
+  background-color: #0B5345;
+}

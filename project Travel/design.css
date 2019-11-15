@@ -1,0 +1,286 @@
+html{
+  font-size: 62.6%;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 1.5rem;
+}
+/* Navigation Bar */
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #008000;
+}
+
+.social__icon_social__icon--fb,.social__icon_social__icon--tw,
+.social__icon_social__icon--tum,.social__icon_social__icon--in{
+	text-align: right;
+	float: right;
+}
+
+.container__item{
+  margin: 0 auto 0;
+}
+
+.landing-page-container{
+  width: 100%;
+  min-height: 100%;
+  height: 100vh;
+  background-image: url(https://i.pinimg.com/originals/2c/d8/17/2cd81711a1653cf1a2c91527d90fc2d5.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: table;
+  font-family: "Montserrat",sans-serif;
+  color: #000000
+}
+
+.content-wrapper{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  display: table;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+  height: 10%;
+  margin-top: 0;
+  display: block;
+}
+
+.menu-icon{
+  width: 2.6rem;
+  height: 1.6rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header__item{
+  display: inline-block;
+  float: left;
+}
+
+.menu-icon__line{
+  height: 0.2rem;
+  width: 1.5rem;
+  background: white;
+  display: block;
+}
+
+.menu-icon__line:before, .menu-icon__line:after{
+  content: '';
+  height: 0.2rem;
+  width: 1.5rem;
+  background: white;
+  display: inline-block;
+  position: relative;
+}
+
+.menu-icon__line:before{
+  left: .5rem;
+  top: -0.6rem;
+}
+
+.menu-icon__line:after{
+  top: -1.8rem;
+}
+
+.heading{
+  width: 90%;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+  margin: 0 30px;
+  text-align: center;
+}
+
+
+.ellipse-container{
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 7rem;
+}
+
+.ellipse-container .greeting{
+  position: relative;
+  top: 14rem;
+  left: -6rem;
+  right: 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 4rem;
+  font-size: 8rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.ellipse-container .greeting:after{
+  content: '';
+  width: 0.3rem;
+  height: .3rem;;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  top: -0.65rem;
+  left: -5.05rem;
+}
+
+.ellipse{
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  border-style: solid;
+}
+
+.ellipse__outer--thin{
+  height: 100%;
+  width: 100%;
+  border-width: 1px;
+  border-color: rgba(9, 56, 62, 0.1);
+  animation: ellipseOrbit 7s ease-in-out infinite;
+}
+
+.ellipse__outer--thin:after{
+  content: '';
+  background-image: url(https://www.google.co.in/
+    url?sa=i&source=images&cd=&ved=2ahUKEwjRqdPm3uTjAhXIo48KHUihA8oQjRx6BAgBEAQ&url=https%3A%2F%2Fdailyrank.org%2Fsite%2Fcampingquai.it%2F&psig=AOvVaw14Tr8BxuQh4NWu4TpD1det&ust=1564854314015403);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #000;
+  opacity: -3;
+}
+
+.ellipse__outer--thick{
+  height: 99.5%;
+  width: 99.5%;
+  border-color: #000000 transparent;
+  border-width: 2px;
+  transform: rotate(-45deg);
+  animation: ellipseRotate 15s ease-in-out infinite;
+}
+
+.ellipse__orbit{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-width: 2px;
+  border-color: #000000;
+  top: 5rem;
+  right: 6.75rem;
+}
+
+.ellipse__orbit:before{
+  content: '';
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #000000;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+@keyframes ellipseRotate {
+  0%{
+    transform: rotate(-45deg);
+  }
+
+  100%{
+    transform: rotate(-408deg);
+  }
+}
+
+@keyframes ellipseOrbit {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
