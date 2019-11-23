@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Selector</title>
+    <link rel="icon" href="images/select.png"
+    type="image/png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="Selector_design.css">
+    <style>
+    	input[type=button] {
+		  background-color: #0F6089;
+		  border: none;
+		  color: white;
+		  width: 100%;
+		  padding: 16px 32px;
+		  text-decoration: none;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+
+    .mySlides {display:none;}
+
+    body{
+      background-image: url(https://wallpaperplay.com/walls/full/6/a/1/78868.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+	    <script type="text/javascript">
+	    function goToNewPage()
+	    {
+	        var url = document.getElementById('list').value;
+	        if (url == 'Raj') {
+	        	//Location Here
+	        }
+	        else if(url == 'Mahst'){
+	        	//Location Here
+	        }
+	        else if(url == 'Odi'){window.location = "C:/Users/Sarfraz/Downloads/Bon-Voyage-master/Bon-Voyage-master/project%20Travel/tablemenu.html"}
+	    }
+		</script>
+	  </head>
+
+<body>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/img-1.jpg" style="width:100%">
+  <img class="mySlides" src="images/img-2.webp" style="width:100%">
+  <img class="mySlides" src="images/image-3.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+
+    <h3>Enter your details</h3>
+  <div class="form_label">
+    <form>
+    <label for="fname">First Name<br></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your First Name...">
+
+    <label for="lname">Last Name<br></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+
+    <label for="state">State<br></label>
+    <select name="list" id="list" accesskey="target">
+	    <option value="Raj">Rajasthan</option>
+      	<option value="Mahst">Maharashtra</option>
+      	<option value="Odi">Odisha</option>
+	 </select>
+	 <input type=button value="Submit and Go" onclick="goToNewPage()" />
+    </form>
+  </div>
+ </body>
+</html>
