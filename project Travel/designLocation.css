@@ -3,10 +3,10 @@ h2{
   font-style: italic;
 }
 
-img{
+/*img{
   height: 40%;
   width: 60%;
-}
+}*/
 /* Navigation Bar */
 ul {
   
@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 
