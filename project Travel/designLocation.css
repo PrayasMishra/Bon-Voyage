@@ -3,6 +3,10 @@ h2{
   font-style: italic;
 }
 
+img{
+  height: 50px;
+  width: 50px;
+}
 /* Navigation Bar */
 ul {
   
