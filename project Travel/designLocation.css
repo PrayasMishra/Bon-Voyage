@@ -8,7 +8,7 @@ img{
   width: 60%;
 }
 /* Navigation Bar */
-ul.social-container.header__item {
+ul {
   
   list-style-type: none;
   margin: 0;
@@ -19,8 +19,7 @@ ul.social-container.header__item {
   background-color: #333;
 }
 
-li.social__icon_social__icon--in,li.social__icon_social__icon--fb,
-li.social__icon_social__icon--tw,li.social__icon_social__icon--tum{
+li {
   float: left;
 }
 
