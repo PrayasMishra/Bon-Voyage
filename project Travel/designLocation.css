@@ -1,0 +1,34 @@
+/* Navigation Bar */
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #008000;
+}
+
+.social__icon_social__icon--fb,.social__icon_social__icon--tw,
+.social__icon_social__icon--tum,.social__icon_social__icon--in{
+	text-align: right;
+	float: right;
+}
