@@ -4,8 +4,8 @@ h2{
 }
 
 img{
-  height: 20%;
-  width: 20%;
+  height: 40%;
+  width: 60%;
 }
 /* Navigation Bar */
 ul {
@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 
