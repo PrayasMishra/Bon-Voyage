@@ -19,7 +19,8 @@ ul.social-container.header__item {
   background-color: #333;
 }
 
-li {
+li.social__icon_social__icon--in,li.social__icon_social__icon--fb,
+li.social__icon_social__icon--tw,li.social__icon_social__icon--tum{
   float: left;
 }
 
