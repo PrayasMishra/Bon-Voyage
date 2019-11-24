@@ -1,3 +1,10 @@
+body{
+  background-image: url(https://i.pinimg.com/originals/2c/d8/17/2cd81711a1653cf1a2c91527d90fc2d5.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h2{
   font-style: bold;
   font-style: italic;
@@ -16,7 +23,7 @@ ul {
   height: 50px;
   width: 100%;
   overflow: hidden;
-  background-color: #737373;
+  background-color: #005ce6;
 }
 
 li {
