@@ -177,8 +177,6 @@ li a:hover {
 
 .ellipse__outer--thin:after{
   content: '';
-  background-image: url(https://www.google.co.in/
-    url?sa=i&source=images&cd=&ved=2ahUKEwjRqdPm3uTjAhXIo48KHUihA8oQjRx6BAgBEAQ&url=https%3A%2F%2Fdailyrank.org%2Fsite%2Fcampingquai.it%2F&psig=AOvVaw14Tr8BxuQh4NWu4TpD1det&ust=1564854314015403);
   background-repeat: no-repeat;
   background-position: center;
   top: 0;
